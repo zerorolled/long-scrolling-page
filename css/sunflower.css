@@ -1,0 +1,52 @@
+#stage {
+  height:10000px;
+  width:1000px;
+  margin:0 auto;
+  border:1px solid red;
+  position:relative;
+  overflow:hidden;
+}
+
+#seed {
+  height: 50px;
+  width: 70px;
+  border: 1px solid red;
+}
+
+#sunflower {
+  height: 1000px;
+  width: 100px;
+  margin-left: 450px;
+  border: 1px solid red;
+}
+
+#stem {
+  height: 1000px;
+  width: 100px;
+  margin-left: 450px;
+  border: 1px solid red;
+}
+
+#tgrass {
+  height: 1000px;
+  width: 100px;
+  border: 1px solid red;
+}
+
+#grass {
+  height: 1000px;
+  width: 100px;
+  border: 1px solid red;
+}
+
+#ground {
+  height: 1000px;
+  width: 100px;
+  border: 1px solid red;
+}
+
+#dirt {
+  height: 1000px;
+  width: 100px;
+  border: 1px solid red;
+}
