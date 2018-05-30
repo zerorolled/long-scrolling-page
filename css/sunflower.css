@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(to bottom, #1e5799 0%,#207cca 15%,#207cca 15%,#7db9e8 98%);
+}
+
 #stage {
   height:10000px;
   width:1000px;
@@ -25,6 +29,7 @@
   width: 100px;
   margin-left: 450px;
   border: 1px solid red;
+  background: 0 100px repeat-y;
 }
 
 #tgrass {

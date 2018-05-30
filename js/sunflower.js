@@ -9,18 +9,17 @@ window.onscroll = function(){
 
   console.log(fromTop);
 
-  submarine.innerHTML = fromTop + "px";
+  seed.innerHTML = fromTop + "px";
 
-  submarine.style.top = fromTop * 1.1 + "px";
+  seed.style.top = fromTop * 1.1 + "px";
 
-  //submarine.style.transform = "rotate("+ fromTop +"deg)";
+  //seed.style.transform = "rotate("+ fromTop +"deg)";
 
   if(fromTop > 5000){
-    submarine.style.transform = "rotate(0 deg)";
-    submarine.style.backgroundColor = "red";
-    submarine.innerHTML = "what a ride!"
+    seed.style.transform = "rotate(0 deg)";
+    seed.innerHTML = "what a ride!"
     }else{
-      submarine.style.transform = "rotate("+ fromTop +"deg)";
+      seed.style.transform = "rotate("+ fromTop +"deg)";
     }
 
 }
