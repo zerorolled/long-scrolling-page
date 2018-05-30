@@ -1,6 +1,6 @@
-body {
+/* body {
   background: linear-gradient(to bottom, #1e5799 0%,#207cca 15%,#207cca 15%,#7db9e8 98%);
-}
+} */
 
 #stage {
   height:10000px;
@@ -8,7 +8,6 @@ body {
   margin:0 auto;
   border:1px solid red;
   position:relative;
-  overflow:hidden;
 }
 
 #seed {
@@ -18,18 +17,13 @@ body {
 }
 
 #sunflower {
-  height: 1000px;
-  width: 100px;
+  background-image: url("img/sunflower.png");
   margin-left: 450px;
-  border: 1px solid red;
 }
 
 #stem {
-  height: 1000px;
-  width: 100px;
+  background-image: url("img/stem.png") repeat-y;
   margin-left: 450px;
-  border: 1px solid red;
-  background: 0 100px repeat-y;
 }
 
 #tgrass {
