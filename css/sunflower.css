@@ -17,6 +17,12 @@ h1 {
 }
 
 #seed {
+  background-image: url("../img/seed.png");
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin-top: -280px;
+  margin-left: 550px;
   border: 1px solid red;
 }
 
