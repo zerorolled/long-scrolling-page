@@ -3,7 +3,7 @@ var seed = document.getElementById ("seed");
 
 window.onscroll = function(){
 
-  console.log("yo yo yo");
+  console.log("Sunflower Seed");
 
   var fromTop = window.pageYOffset;
 

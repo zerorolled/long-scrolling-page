@@ -1,51 +1,69 @@
-/* body {
-  background: linear-gradient(to bottom, #1e5799 0%,#207cca 15%,#207cca 15%,#7db9e8 98%);
-} */
+body {
+  background: linear-gradient(to bottom, #29b8e5 0%,#bce0ee 40%,#4e4d1d 50%,#372719 100%);
+}
+
+h1 {
+  height: 1000px;
+  width: 1000px;
+}
+
 
 #stage {
   height:10000px;
   width:1000px;
   margin:0 auto;
   border:1px solid red;
-  position:relative;
+  position: relative;
 }
 
 #seed {
-  height: 50px;
-  width: 70px;
   border: 1px solid red;
 }
 
 #sunflower {
-  background-image: url("img/sunflower.png");
-  margin-left: 450px;
+  background-image: url("../img/sunflower.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+
 }
 
 #stem {
-  background-image: url("img/stem.png") repeat-y;
-  margin-left: 450px;
+  background-image: url("../img/stem.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  margin-top: -22px;
 }
 
 #tgrass {
-  height: 1000px;
-  width: 100px;
-  border: 1px solid red;
+  background-image: url("../img/stem.png"), url("../img/grass.png") ;
+  background-repeat: no-repeat, repeat-y;
+  background-position: center, center;
+  margin-top: -4090px;
 }
 
 #grass {
-  height: 1000px;
-  width: 100px;
-  border: 1px solid red;
+  background-image: url("../img/stem.png"), url("../img/darkgrass.png");
+  background-repeat: repeat-y, repeat-y;
+  background-position: center, center;
+  margin-top: -22px;
 }
 
 #ground {
-  height: 1000px;
-  width: 100px;
-  border: 1px solid red;
+  background-image: url("../img/dirt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -2000px;
 }
 
 #dirt {
-  height: 1000px;
-  width: 100px;
-  border: 1px solid red;
+  background-image: url("../img/deepdirt.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-top: -1245px;
+}
+#dirt2 {
+  background-image: url("../img/deepdirt.png");
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-top: -222px;
 }
