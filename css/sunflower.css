@@ -7,12 +7,19 @@ h1 {
   width: 1000px;
 }
 
+#heightfact {
+  height: 100px;
+  width: 300px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin-top: -35px;
+  margin-left: 700px;
+}
 
 #stage {
   height:10000px;
   width:1000px;
   margin:0 auto;
-  border:1px solid red;
   position: relative;
 }
 
@@ -24,7 +31,6 @@ h1 {
   width: 200px;
   margin-top: -280px;
   margin-left: 550px;
-  border: 1px solid red;
 }
 
 #sunflower {
@@ -37,7 +43,7 @@ h1 {
   background-image: url("../img/stem.png");
   background-repeat: repeat-y;
   background-position: center;
-  margin-top: -22px;
+  margin-top: -63px;
 }
 
 #tgrass {
